@@ -1,0 +1,301 @@
+﻿body {
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background: rgba(252,234,187,1);
+    background: -moz-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 91%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(91%, rgba(252,205,77,1)), color-stop(98%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 91%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 91%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 91%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+    background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 91%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );
+    border-bottom: 4px solid BLACK;
+}
+
+#title {
+    width: 500px;
+    height: auto;
+    padding-left: 80px;
+    float: left;
+    color: White;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Georgia;
+    font-size: 48px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 2px BLACK;
+}
+
+#trbox {
+    width: 300px;
+    float: right;
+    padding-right: 50px;
+    height: auto;
+    padding-top: 15px;
+}
+
+#bt {
+    width: 200px;
+    padding: 6px;
+    background-color: Black;
+    border: 2px solid SILVER;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    color: Red;
+}
+
+#layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: Black;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+#outer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1005;
+}
+
+#box {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid SILVER;
+    box-shadow: 0px 0px 8px WHITE;
+    border-radius: 8px;
+    background-color: White;
+    margin: 90px auto;
+}
+
+#boxt {
+    width: 380px;
+    padding: 4px;
+    background-color: Maroon;
+    border: 1px solid BLACK;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Georgia;
+    font-size: 28px;
+    color: Silver;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px;
+}
+
+.tabx {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+    .tabx tr {
+        height: 60px;
+        border-bottom: 1px solid SILVER;
+    }
+
+.txt {
+    width: 370px;
+    padding: 5px;
+    border: 1px solid BLACK;
+    color: Gray;
+    font-weight: bold;
+}
+
+.tabx td {
+    color: Gray;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btx {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid BLACK;
+    color: White;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.btx21 {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid BLACK;
+    color: Red;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.btx1 {
+    width: 160px;
+    padding: 5px;
+    background: linear-gradient(white,blue);
+    background: -moz-linear-gradient(white,blue);
+    background: -webkit-linear-gradient(white,blue);
+    text-align: center;
+    border: 1px solid BLACK;
+    color: White;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+#main {
+    width: 100%;
+    min-height: 400px;
+    margin: 90px auto;
+}
+
+#lbox {
+    width: 400px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+#rbox {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    float: right;
+    background: linear-gradient(white,blue);
+    background: -moz-linear-gradient(white,blue);
+    background: -webkit-linear-gradient(white,blue);
+    border: 1px solid BLACK;
+    padding-top: 20px;
+}
+
+#tx {
+    width: 390px;
+    margin: 0 auto;
+    color: Red;
+    font-family: Georgia;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    background-color: Orange;
+    border: 1px solid BLACK;
+    padding: 5px;
+}
+
+.tabx1 td {
+    color: White;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.tabx1 tr {
+    height: 60px;
+}
+
+#footer {
+    position: fixed;
+    left: 13px;
+    bottom: -52px;
+    width: 100%;
+    height: 28px;
+    background-color: Black;
+    border-top: 2px solid SILVER;
+}
+
+.trbox1 {
+    width: 300px;
+    float: right;
+    padding-right: 50px;
+    height: auto;
+    padding-top: 30px;
+}
+
+#trbox2 {
+    width: 300px;
+    padding-left: 90%;
+    height: auto;
+    padding-top: 30px;
+}
+
+#Button1 {
+    padding-right: 6px;
+    padding-top: 2px;
+    background-color: Black;
+    border: 2px solid SILVER;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 18px;
+    color: Red;
+}
+
+.textbox1 {
+    width: 99.5%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.textbox2 {
+    width: 99.5%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.Label {
+    position: relative;
+    padding-left: 18px;
+    top: 6px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Label1 {
+    position: relative;
+    padding-left: 18px;
+    top: 6px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Textbox3 {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.box1 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 15px;
+}
+.btns {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
